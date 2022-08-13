@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 4 4
+- text: a a
+- text: a 4
+- text: 4 a
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 22:12:05 UTC
+record: -1
+selected_options:
+- 3

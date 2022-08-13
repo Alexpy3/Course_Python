@@ -1,0 +1,99 @@
+<html>
+ <head></head>
+ <body>
+  <h1>Тема урока: методы добавления&nbsp;и удаления&nbsp;элементов</h1> 
+  <ol> 
+   <li>Метод добавления элемента&nbsp;<code>append()</code></li> 
+   <li>Метод расширения&nbsp;списка <code>extend()</code></li> 
+   <li>Оператор&nbsp;<code>del</code></li> 
+   <li>Решение задач</li> 
+  </ol> 
+  <p><strong>Аннотация.</strong>&nbsp;Добавление элементов в список. Оператор <code>del</code>, удаляющий элементы по заданному индексу.</p> 
+  <h2 style="text-align: center;">Добавление элементов</h2> 
+  <p>Мы научились создавать статические списки, то есть списки, элементы которых известны на этапе создания. Следующий шаг – научиться добавлять элементы в уже существующие списки.</p> 
+  <h3 style="text-align: center;">Метод append()</h3> 
+  <p>Для добавления нового элемента&nbsp;<strong>в&nbsp;конец списка</strong> используется метод&nbsp;<code>append()</code>.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = [1, 1, 2, 3, 5, 8, 13]  # создаем список
+
+numbers.append(21)  # добавляем число 21 в конец списка
+numbers.append(34)  # добавляем число 34 в конец списка
+
+print(numbers)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">[1, 1, 2, 3, 5, 8, 13, 21, 34]</code></pre> 
+  <p>Обратите внимание,&nbsp;для того чтобы использовать&nbsp;метод&nbsp;<code>append()</code>, нужно, чтобы список был создан, при этом он&nbsp;может быть пустым.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = []  # создаем пустой список
+
+numbers.append(1)
+numbers.append(2)
+numbers.append(3)
+
+print(numbers)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">[1, 2, 3]</code></pre> 
+  <p><img alt="" height="49" src="https://ucarecdn.com/493ad240-bdc9-477b-99dd-73ec3c7e30d2/" style="float: left;" width="44"><span style="color: #a03881;"><strong>Важно:</strong></span> мы не можем использовать индексаторы для установки значений элементов списка,&nbsp;если список пустой. Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = []  # создаем пустой список
+
+numbers[0] = 1
+numbers[1] = 2
+numbers[2] = 3
+
+print(numbers)</code></pre> 
+  <p>приводит к ошибке:</p> 
+  <pre><code class="language-no-highlight">IndexError: list assignment index out of range</code></pre> 
+  <h3 style="text-align: center;">Метод extend()</h3> 
+  <p>Можно также расширить список другим списком, путем вызова метода <code>extend()</code>.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = [0, 2, 4, 6, 8, 10]
+odds = [1, 3, 5, 7]
+
+numbers.extend(odds)
+print(numbers)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">[0, 2, 4, 6, 8, 10, 1, 3, 5, 7]</code></pre> 
+  <p>Метод <code>extend()</code> как бы расширяет один список, добавляя к нему элементы другого&nbsp;списка.</p> 
+  <p>Отличие между методами <code>append()</code> и <code>extend()</code> проявляется при добавлении&nbsp;строки к списку.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">words1 = ['iq option', 'stepik', 'beegeek']
+words2 = ['iq option', 'stepik', 'beegeek']
+
+words1.append('python')
+words2.extend('python')
+
+print(words1)
+print(words2)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">['iq option', 'stepik', 'beegeek', 'python']
+['iq option', 'stepik', 'beegeek', 'p', 'y', 't', 'h', 'o', 'n']</code></pre> 
+  <p>Метод <code>append()</code> добавляет строку <code>'python'</code> целиком к списку, а метод <code>extend()</code>&nbsp;разбивает строку <code>'python'</code> на&nbsp;&nbsp;символы <code>'p', 'y', 't', 'h', 'o', 'n'</code>&nbsp;и их добавляет в качестве элементов списка.&nbsp;</p> 
+  <h2 style="text-align: center;">Удаление элементов</h2> 
+  <p>С&nbsp;помощью оператора&nbsp;<code>del</code>&nbsp;можно удалять элементы списка по определенному индексу.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+del numbers[5]    # удаляем элемент имеющий индекс 5
+
+print(numbers)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">[1, 2, 3, 4, 5, 7, 8, 9]</code></pre> 
+  <p>Элемент под указанным индексом удаляется, а&nbsp;список перестраивается.</p> 
+  <p><img alt="" height="48" src="https://ucarecdn.com/bbc3c150-193b-4d9c-91a1-0a4503b867fa/" style="float: left;" width="43">Обратите внимание на&nbsp;синтаксис удаления, так как&nbsp;он отличается от обычного вызова метода. При удалении элементов не&nbsp;надо передавать аргумент внутри круглых скобок.</p> 
+  <p>Оператор&nbsp;<code>del</code> работает и&nbsp;со&nbsp;срезами: мы можем удалить целый диапазон элементов списка.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+del numbers[2:7]    # удаляем элементы с 2 по 6 включительно
+
+print(numbers)</code></pre> 
+  <p>выведет:</p> 
+  <pre><code class="language-no-highlight">[1, 2, 8, 9]</code></pre> 
+  <p>Мы можем&nbsp;удалить все элементы на&nbsp;четных позициях (0, 2, 4, ...) исходного списка.</p> 
+  <p>Следующий программный код:</p> 
+  <pre><code class="language-python">numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+del numbers[::2]
+
+print(numbers)</code></pre> 
+  <p>&nbsp;выведет:</p> 
+  <pre><code class="language-no-highlight">[2, 4, 6, 8]</code></pre>
+ </body>
+</html>

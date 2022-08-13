@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 10, 9, 8, 7, 6
+- text: 10, 5, 0
+- text: 10, 5, -1
+- text: 10, 9, 8, 7, 6, 5
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 21:43:42 UTC
+record: -1
+selected_options:
+- 0
+custom_name: Quiz

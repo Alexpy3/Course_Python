@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>False <br> False <br> False</code>
+- text: <code>True <br> True <br> False</code>
+- text: <code>True <br> True <br> True</code>
+- text: <code>True <br> False <br> False</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 18:43:35 UTC
+record: -1
+selected_options:
+- 3

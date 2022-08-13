@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: произойдет ошибка IndexError
+- text: ничего не произойдет – недопустимый индекс будет проигнорирован
+- text: произойдет ошибка ValueError
+- text: строковое значение будет стерто, и программа продолжит работу
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 18:36:21 UTC
+record: -1
+selected_options:
+- 0
+custom_name: Quiz

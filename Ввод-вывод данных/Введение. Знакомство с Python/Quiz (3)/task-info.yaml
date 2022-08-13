@@ -1,0 +1,30 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: написание низкоуровневых драйверов
+- text: создание высокопроизводительных серверов
+- text: создание веб-приложений
+- text: создание операционных систем
+- text: создание приложений баз данных
+- text: создание графических приложений GUI
+- text: создание системных утилит
+- text: создание приложений анализа данных
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 22:05:39 UTC
+record: -1
+selected_options:
+- 2
+- 4
+- 5
+- 6
+- 7
+custom_name: Quiz

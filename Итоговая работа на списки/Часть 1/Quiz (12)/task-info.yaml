@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>max()</code>
+- text: <code>maximum()</code>
+- text: <code>highest()</code>
+- text: <code>greatest()</code>
+- text: <code>best_of()</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 30 May 2022 10:54:35 UTC
+record: -1
+selected_options:
+- 0
+custom_name: Quiz

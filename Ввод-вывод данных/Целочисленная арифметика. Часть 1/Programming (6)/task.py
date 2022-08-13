@@ -1,0 +1,7 @@
+num, num1 = input(), input()
+num2 = int(num) + int(num1)
+num3 = int(num) - int(num1)
+num4 = int(num) * int(num1)
+print(str(num), '+', str(num1), '=', str(num2))
+print(str(num), '-', str(num1), '=', str(num3))
+print(str(num), '*', str(num1), '=', str(num4))

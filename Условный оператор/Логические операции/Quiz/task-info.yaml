@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: число 81 выиграло
+- text: число num1 выиграло
+- text: число 34 выиграло
+- text: число num2 выиграло
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 21:33:14 UTC
+record: -1
+selected_options:
+- 2

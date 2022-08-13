@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>1</code>
+- text: <code>-1</code>
+- text: <code>0</code>
+- text: <code>длина строки минус один</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 18:35:38 UTC
+record: -1
+selected_options:
+- 2

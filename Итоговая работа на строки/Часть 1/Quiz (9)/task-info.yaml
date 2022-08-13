@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: ДЖО<br>ДЖО<br>ДЖО
+- text: джо<br>ДЖО<br>ДЖО
+- text: джо<br>ДЖО<br>джо
+- text: джо<br>джо<br>джо
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 18:40:57 UTC
+record: -1
+selected_options:
+- 2
+custom_name: Quiz

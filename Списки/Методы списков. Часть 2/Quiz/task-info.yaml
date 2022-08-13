@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>['Orange', 'Violet', 'Purple', 'Red', 'Blue', 'Green']</code>
+- text: <code>['Violet', 'Orange', 'Purple', 'Red', 'Blue', 'Green']</code>
+- text: <code>['Violet', 'Red', 'Purple', 'Blue', 'Green']</code>
+- text: <code>['Violet', 'Purple', 'Orange', 'Red', 'Blue', 'Green']</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 22 May 2022 15:47:28 UTC
+record: -1
+selected_options:
+- 1

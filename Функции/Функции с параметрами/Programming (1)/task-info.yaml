@@ -1,0 +1,21 @@
+type: code
+custom_name: Programming
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # объявление функции
+    def print_fio(name, surname, patronymic):
+        pass
+
+    # считываем данные
+    name, surname, patronymic = input(), input(), input()
+
+    # вызываем функцию
+    print_fio(name, surname, patronymic)
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sun, 05 Jun 2022 20:33:13 UTC
+record: -1

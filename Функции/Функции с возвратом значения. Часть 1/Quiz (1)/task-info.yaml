@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>6</code>
+- text: <code>8</code>
+- text: <code>24</code>
+- text: <code>16</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 23 Jun 2022 16:17:52 UTC
+record: -1
+selected_options:
+- 3
+custom_name: Quiz

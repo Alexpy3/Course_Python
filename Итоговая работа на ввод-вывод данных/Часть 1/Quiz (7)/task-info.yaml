@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Имя переменной не может совпадать с ключевым (зарезервированным) словом
+- text: Имя переменной не может начинаться с цифры
+- text: Имя переменной может начинаться с символа подчёркивания (_)
+- text: Имя переменной не может оканчиваться цифрой
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 22:02:32 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+custom_name: Quiz

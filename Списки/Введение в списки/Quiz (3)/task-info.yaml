@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: нет
+- text: да
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 11:04:15 UTC
+record: -1
+selected_options:
+- 1
+custom_name: Quiz

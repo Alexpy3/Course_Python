@@ -1,0 +1,21 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # объявление функции
+    def draw_triangle(fill, base):
+        pass
+
+    # считываем данные
+    fill = input()
+    base = int(input())
+
+    # вызываем функцию
+    draw_triangle(fill, base)
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 30 May 2022 16:48:40 UTC
+record: -1

@@ -1,0 +1,17 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # объявление функции
+    def draw_box():
+        pass
+
+    # основная программа
+    draw_box()  # вызов функции
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 30 May 2022 15:36:34 UTC
+record: -1

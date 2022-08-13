@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: вызывают
+- text: импортируют
+- text: определяют
+- text: экспортируют
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 09 Jun 2022 22:22:02 UTC
+record: -1
+selected_options:
+- 0
+custom_name: Quiz

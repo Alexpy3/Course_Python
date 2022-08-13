@@ -1,0 +1,20 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # объявление функции
+    def convert_to_miles(km):
+        pass
+
+    # считываем данные
+    num = int(input())
+
+    # вызываем функцию
+    print(convert_to_miles(num))
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 23 Jun 2022 16:28:05 UTC
+record: -1

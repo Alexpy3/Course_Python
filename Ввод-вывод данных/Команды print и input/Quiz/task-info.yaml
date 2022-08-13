@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: считывания данных с клавиатуры
+- text: вывода данных на экран
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Tue, 10 May 2022 22:06:08 UTC
+record: -1
+selected_options:
+- 1

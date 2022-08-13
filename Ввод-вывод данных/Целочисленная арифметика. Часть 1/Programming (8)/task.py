@@ -1,0 +1,6 @@
+x = input()
+x_2 = int(x) + int(x)
+x_3 = int(x_2) + int(x)
+x_4 = int(x_3) + int(x)
+x_5 = int(x_4) + int(x)
+print(x, x_2, x_3, x_4, x_5, sep='---')

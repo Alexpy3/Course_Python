@@ -1,0 +1,21 @@
+type: code
+custom_name: Programming
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # объявление функции
+    def get_factors(num):
+        pass
+
+    # считываем данные
+    n = int(input())
+
+    # вызываем функцию
+    print(get_factors(n))
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 23 Jun 2022 17:14:36 UTC
+record: -1

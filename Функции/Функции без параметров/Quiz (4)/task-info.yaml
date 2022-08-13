@@ -1,0 +1,28 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <code>draw_triangle</code>
+- text: <code>is_valid</code>
+- text: <code>print_numbers</code>
+- text: <code>find_sum_1</code>
+- text: <code>_myfunction</code>
+- text: <code>1check_condition</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Thu, 09 Jun 2022 22:22:16 UTC
+record: -1
+selected_options:
+- 0
+- 1
+- 2
+- 3
+- 4
+custom_name: Quiz

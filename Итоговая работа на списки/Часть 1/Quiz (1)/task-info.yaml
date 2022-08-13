@@ -1,0 +1,23 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: <code>[0, 1, 2, 3]</code>
+- text: <code>[3]</code>
+- text: <code>[0, 1, 2]</code>
+- text: <code>[2]</code>
+- text: <code>['r', 'a', 'n', 'g', 'e', '(', '3', ')']</code>
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 30 May 2022 10:48:06 UTC
+record: -1
+selected_options:
+- 2
+custom_name: Quiz

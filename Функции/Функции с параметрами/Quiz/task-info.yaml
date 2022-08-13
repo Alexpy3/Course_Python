@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: параметр
+- text: аргумент
+- text: заголовок
+- text: пакет
+files:
+- name: task.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 30 May 2022 16:28:11 UTC
+record: -1
+selected_options:
+- 1
